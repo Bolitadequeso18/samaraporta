@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Estilos para los botones */
+.button {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px; /* Cambia el tamaño de fuente */
+    transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+}
+
+/* Estilos cuando pasas el cursor sobre los botones */
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #b40707;
+}
+
+
+.button {
+    padding: 10px 25px;
+    background-color: #b40707;
+    color: #ffffff;
+    border: 2px solid; /* Establece un borde sólido de 2 píxeles de ancho */
+    border-color: #ffffff; /* Cambia el color del borde aquí */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Transición suave para el cambio de tamaño */
+}
+
+
+/* Cambio de tamaño al pasar el cursor sobre el botón */
+.button:hover {
+            transform: scale(1.2); /* Escala el botón al 120% de su tamaño original */
+}
+
+
+
+.button-container {
+    position: absolute;
+    top: 5%; /* Ajusta la distancia desde la parte superior */
+    right: 2%; /* Ajusta la distancia desde la derecha */
+}
+
+ /* Estilos adicionales para la imagen si es necesario */
+ .image {
+    max-width: 40%; /* Ajusta el ancho máximo de la imagen para que se ajuste al contenedor */
+    max-width: 50%;
+    border-radius: 40%;
+}
+
+.image-container {
+    position: absolute;
+    top: 2%; /* Ajusta la distancia desde la parte superior */
+    left: 3%; /* Ajusta la distancia desde la izquierda */
+
+}
+
+/* Estilos para el rectángulo de color */
+.rectangulo {
+    width: 25%;
+    height: 25%;
+    background-color: #000000;
+    padding: 4px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%; /* Ajusta la distancia desde la parte inferior */
+    left: 2%; /* Ajusta la distancia desde la izquierda */
+    display: flex;
+    justify-content:right; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: #ffffff;
+    text-align:justify;
+    border-radius: 30px;
+}
+
+.rectangulo2 {
+    width: 25%;
+    height: 25%;
+    background-color: #000000;
+    padding: 4px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 36%; /* Ajusta la distancia desde la parte inferior */
+    left: 2%; /* Ajusta la distancia desde la izquierda */
+    display: flex;
+    justify-content:right; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: #ffffff;
+    text-align:justify;
+    border-radius: 30px;
+}
+
+.rectangulo3 {
+    width: 34%;
+    height: 34%;
+    background-color: #000000;
+    padding: 0px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 2%; /* Ajusta la distancia desde la parte inferior */
+    left: 65%; /* Ajusta la distancia desde la izquierda */
+}
+
+.rectangulo4 {
+    width: 34%;
+    height: 34%;
+    background-color: #000000;
+    padding: 0px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 40%; /* Ajusta la distancia desde la parte inferior */
+    left: 44%; /* Ajusta la distancia desde la izquierda */
+}
+
+/* Estilo para el fondo de la página */
+body {
+    background-color: #000000;
+}
+
+

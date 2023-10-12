@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referente audiovisual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="button-container">
+        <!-- Botones/enlaces -->
+        <a href="index.html" class="button">Perfíl</a>
+        <a href="trabajos.html" class="button">Trabajos</a>
+        <a href="enfasis.html" class="button">Énfasis</a>
+        <a href="referencia.html" class="button">Referente audiovisual</a>
+        <a href="contactos.html" class="button">Contáctos</a>
+    </div>
+ 
+     <!-- Contenedor de la imagen -->
+     <div class="image-container">
+        <img src="images/logooriginal.PNG" alt="Descripción de la imagen" class="image">
+    </div>
+
+
+    
+    <style>
+        /* Estilos para el video de fondo */
+        #video-fondo {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1; /* Coloca el video detrás de otros elementos */
+        }
+
+</style>
+</head>
+    <!-- Video de fondo -->
+    <video autoplay muted loop id="video-fondo">
+        <source src="images/y2mate.com - Chispas de fuego para videoflyersPARTICULAS DE FUEGO PANTALLA NEGRA  HD PARA AFTER EFFECTS_720p.mp4" type="video/mp4">
+    </video>
+
+
+
+
+    <style>
+        /* Estilo para el contenedor del video */
+        .video-container {
+            position: static; /* Permitirá un posicionamiento relativo */
+            width: 50%; /* Asegura que el video ocupe todo el ancho disponible */
+            padding-bottom: 56.25%; /* Establece una relación de aspecto 16:9 para el video */
+        }
+
+        /* Estilo para el video */
+        video {
+            position: absolute; /* Permite un posicionamiento absoluto dentro del contenedor */
+            width: 60%; /* Asegura que el video se ajuste al contenedor */
+            height:auto; /* Asegura que el video se ajuste al contenedor */
+            top: 35%; /* Coloca el video en la parte superior del contenedor */
+            left: 20%; /* Coloca el video en la parte izquierda del contenedor */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor del video -->
+    <div class="video-container">
+        <video controls autoplay>
+            <source src="images/Sentimental_Guión T..mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+    </div>
+    <style>
+        body {
+            background-image:url(images/fondo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    
+</body>
+</html>
